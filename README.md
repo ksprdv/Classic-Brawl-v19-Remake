@@ -1,4 +1,4 @@
-<h1 align="center">Welcome to Classic-Brawl-Remake 👋</h1>
+<h1 align="center">Welcome to Classic-Brawl 👋</h1>
 
 Open source Brawl Stars server emulator for version 19 of the game!
 
@@ -14,12 +14,10 @@ Open source Brawl Stars server emulator for version 19 of the game!
   - Brawlers from boxes  
   - All skins unlocked
   - Gadgets and Star Powers
-  - Notifications
 - Shop
   - Special offers
   - Boxes
   - Gold and other resources 
-  - Dudu logic shop :>
 - Club
   - Join
   - Leave
