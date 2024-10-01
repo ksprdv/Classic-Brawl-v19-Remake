@@ -34,7 +34,21 @@ class Notifications:
             'NotificationText': f'Hi!'
         },
 
+        {
+            'NotificationID': 79,
+            'NotificationIndex': 3,
+            'NotificationRead': True,
+            'NotificationTime': 43200,
+            'NotificationText': None,
+            'Brawlers': [0, 1, 2, 3, 4, 5, 6, 7, 8, 9],
+            'TrophiesPlus': [12, 14, 16, 18, 20, 22, 24, 26, 28, 30],
+            'TrophiesMinus': [12, 14, 16, 18, 20, 22, 24, 26, 28, 30],
+            'Starpoints': [12, 14, 16, 18, 20, 22, 24, 26, 28, 30],
+        }
+
     ]
+    
+    
     
     def EncodeNotificationsMessages(self):
         count = len(Notifications.messages)
@@ -63,7 +77,7 @@ class Notifications:
                 self.writeVint(item['Gems'])
             
             elif item['NotificationID'] == 77:
-                self.writeVint(0)
+                self.writeVint(1)
                 for i in range(1):
                     self.writeVint(1)
                     self.writeVint(14)  # ItemType

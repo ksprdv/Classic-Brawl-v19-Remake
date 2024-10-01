@@ -7,15 +7,15 @@
     "BigBoxTokens": 0,
     "ExperiencePoints": 0,
     "Trophies": 0,
-    "ShowPacketsInLog": false,
+    "ShowPacketsInLog": true,
     "ThemeID": 7,
     "SupportedContentCreator": "Classic Brawl Remake by KasperDEV",
     "Maintenance": false,
     "Patch": false,
-    "PatchUrl": "http://192.168.0.103:8080/",
-    "UpdateUrl": "",
 	"CoinEvent": "false",
 	"TokenEvent": "false",
+    "PatchUrl": "http://127.0.0.1:8080/",
+    "UpdateUrl": "",
     "BrawlerTrophies": 0,
     "BrawlerTrophiesForRank": 0,
     "BrawlerPowerLevel": 0,
@@ -57,7 +57,8 @@
             "leon": 0, 
             "rosa": 0, 
             "carl": 0, 
-            "bibi": 0
+            "bibi": 0, 
+            "8bit": 0
         }
     ]
   }

@@ -24,13 +24,10 @@ class TeamChangeMemberSettingsMessage(BSMessageReader):
         if self.csv_id == 29:
             self.player.brawler_id = Characters.get_brawler_by_skin_id(self, self.BrawlerSkinId)
             self.player.starpower = Cards.get_spg_by_brawler_id(self, self.player.brawler_id, 4)
-            self.player.gadget = Cards.get_spg_by_brawler_id(self, self.player.brawler_id, 5)
         else:
             self.player.starpower = self.StarpowerID
-            self.player.gadget = Cards.get_spg_by_brawler_id(self, self.player.brawler_id, 5)
 
         DataBase.replaceValue(self, 'starpower', self.player.starpower)
-        DataBase.replaceValue(self, 'gadget', self.player.gadget)
 
         DataBase.UpdateGameroomPlayerInfo(self, self.player.low_id)
 

@@ -19,7 +19,7 @@ class TeamCreateMessage(BSMessageReader):
 
         if self.player.map_id == -64:
             self.mapSlot = 0
-            self.mapID = 7
+            self.player.map_id = 7
         else:
             self.player.map_id = EventSlots.maps[self.mapSlot - 1]['ID']
 
@@ -29,3 +29,4 @@ class TeamCreateMessage(BSMessageReader):
 
         DataBase.createGameroomDB(self)
         TeamGameroomDataMessage(self.client, self.player).send()
+

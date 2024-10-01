@@ -22,7 +22,7 @@ class EventSlots:
 
     maps = [
         {
-            'ID': 112, # Gemgrab
+            'ID': 58, # Gemgrab
             'Status': 3,
             'Ended': False,
             'Modifier': 0,
@@ -36,7 +36,7 @@ class EventSlots:
             'CollectReward': 10
         },
         {
-            'ID': 143, # Brawlball
+            'ID': 164, # Brawlball
             'Status': 3,
             'Ended': False,
             'Modifier': 0,
@@ -57,14 +57,14 @@ class EventSlots:
             'CollectReward': 10
         },
         {
-            'ID': 145, # Heist
+            'ID': 53, # Heist
             'Status': 3,
             'Ended': False,
             'Modifier': 0,
             'CollectReward': 10
         },
         {
-            'ID': 82, # Bounty
+            'ID': 84, # Bounty
             'Status': 3,
             'Ended': False,
             'Modifier': 0,
